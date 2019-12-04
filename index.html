@@ -26,7 +26,21 @@
 <body>
   <section class="menu cid-rJHhG9fsuJ" once="menu" id="menu2-0">
 
-    
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+      (function () {
+        var options = {
+            whatsapp: "+55 41 8901-5722", // WhatsApp number
+            call_to_action: "Envie-nos Uma Mensagem", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+    </script>
+    <!-- /GetButton.io widget -->
 
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
